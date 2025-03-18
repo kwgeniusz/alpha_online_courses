@@ -1,0 +1,19 @@
+{
+    "name": "startup/language-courses",
+    "description": "Aplicación de búsqueda de cursos y exámenes para una startup de idiomas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
