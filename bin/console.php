@@ -15,6 +15,7 @@ if ($argc < 3 || $argv[1] !== 'search') {
     echo "Uso: php bin/console search <término de búsqueda>" . PHP_EOL;
     exit(1);
 }
+ 
 
 // Obtener término de búsqueda
 $searchTerm = $argv[2];
