@@ -34,12 +34,12 @@ Esta aplicación de consola permite buscar clases y exámenes en una base de dat
 ## Uso
 
 ```
-bin/console search <término de búsqueda>
+php bin/console search <término de búsqueda>
 ```
 
 Ejemplo:
 ```
-bin/console search trabajo
+php bin/console search trabajo
 ```
 
 Salida:
