@@ -2,7 +2,7 @@
 
 return [
     'host' => 'localhost',
-    'database' => 'language_courses',
+    'database' => 'language_courses_db',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8mb4',
